@@ -1,12 +1,12 @@
 **TL;DR**\
-**BraaSMAN** (Branch - as - Service ‑ Manager) is a Python 3 / PyQt6 desktop app that auto - discovers MikroTik switches in `192.168.99.0/24`, presents their Layer - 2 tables in a clean GUI, and—if you supply a FortiGate API token—enriches every MAC with FortiGate’s device - type and OS guess. First run takes \~3 seconds; clone → `poetry install` → create a `.env` → `poetry run braasman`. Future milestones add MAC - vendor lookups, scheduled diffs, and northbound data sync.
+**BraaSMAN** (Branch - as - a - Service ‑ Manager) is a Python 3 / PyQt6 desktop app that auto - discovers MikroTik switches in `192.168.99.0/24`, presents their Layer - 2 tables in a clean GUI, and—if you supply a FortiGate API token—enriches every MAC with FortiGate’s device - type and OS guess. First run takes \~3 seconds; clone → `poetry install` → create a `.env` → `poetry run braasman`. Future milestones add MAC - vendor lookups, scheduled diffs, and northbound data sync.
 
 ---
 
 # BraaSMAN
 
-**Branch - as - Service ‑ Manager – local network inventory for MikroTik & FortiGate environments**\
-*Version 0.1.0 (MVP)*
+**Branch - as - a - Service ‑ Manager – local network inventory for MikroTik & FortiGate environments**\
+*Version 0.1a (MVP)*
 
 ---
 
