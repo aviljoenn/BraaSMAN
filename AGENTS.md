@@ -8,7 +8,6 @@
             # ── 0. Quick reachability check ───────────────────────────────────
                 # ── 1. fetch model + firmware (no login needed) ────────────────────────────────────────────────
 
-- Tkinter "clam" theme is preferred wherever it could be applied
 ## Rules
 - There may sometimes be supplemental notes and instructions embedded in the Python code that will aid in understanding and provide guidance on the task. Such notes will always start with "#Note to developer":
 - Always update the Last Update date at the top of the Python files to show the current Date and time of the change in GMT+2 in the format YYYY-MM-DD HH:MM.
