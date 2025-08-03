@@ -1,0 +1,32 @@
+[project]
+name = "braasman"
+version = "0.1.0"
+description = "Branch-as-a-Service Manager"
+authors = [
+    {name = "Andre Viljoen",email = "andreviljoenn@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "pyqt6 (>=6.9.1,<7.0.0)",
+    "requests (>=2.32.4,<3.0.0)",
+    "librouteros (>=3.4.1,<4.0.0)",
+    "paramiko (>=3.5.1,<4.0.0)",
+    "python-dotenv (>=1.1.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.12.7"
+black = "^25.1.0"
+pytest = "^8.4.1"
+pytest-cov = "^6.2.1"
+pre-commit = "^4.2.0"
+
+[tool.poetry]
+packages = [{ include = "braasman" }]
