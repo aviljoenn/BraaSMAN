@@ -1,0 +1,18 @@
+# ─── Python ───
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+
+# ─── Poetry build artefacts ───
+dist/
+build/
+*.egg-info/
+
+# ─── Editor / OS junk ───
+.idea/
+.vscode/
+.DS_Store
+
+# ─── Secrets ───
+.env
